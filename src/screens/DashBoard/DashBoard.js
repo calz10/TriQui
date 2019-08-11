@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { inject, observer } from 'mobx-react'
 // eslint-disable-next-line object-curly-newline
-import { Container, View, H2, H1 } from 'native-base'
+import { Container, View, H2, H1, } from 'native-base'
 import { observable } from 'mobx'
 import { LinearButton } from '../../components/Buttons'
 import styles from './styles'
