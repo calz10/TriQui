@@ -13,12 +13,9 @@ class QuizApi {
    */
   async generateQuiz() {
     try {
-      console.log('testsets', 'dadada')
       const { data } = await axios.get('https://opentdb.com/api.php?amount=10')
-      console.log(data)
       if (data) {
         const { results } = data
-        console.log(results)
         return results
       }
       return []
