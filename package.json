@@ -17,7 +17,7 @@
     "jetifier": "^1.6.3",
     "mobx": "^4.9.4",
     "mobx-react": "^5.4.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "native-base": "^2.13.4",
     "react": "16.8.6",
     "react-native": "0.60.4",
